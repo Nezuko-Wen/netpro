@@ -1,7 +1,8 @@
 package me.exec.netty.dubbo.consumer;
 
-import netty.dubbo.netty.DubboClient;
-import netty.dubbo.service.HelloService;
+
+import me.exec.netty.dubbo.netty.DubboClient;
+import me.exec.netty.dubbo.service.HelloService;
 
 public class Consumer {
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package me.exec.netty.dubbo.provider;
 
-import netty.dubbo.service.HelloService;
+
+import me.exec.netty.dubbo.service.HelloService;
 
 public class HelloServiceImpl implements HelloService {
     @Override

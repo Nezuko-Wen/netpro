@@ -2,7 +2,7 @@ package me.exec.netty.dubbo.netty;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import netty.dubbo.provider.HelloServiceImpl;
+import me.exec.netty.dubbo.provider.HelloServiceImpl;
 
 public class DubboServerHandler extends ChannelInboundHandlerAdapter {
 

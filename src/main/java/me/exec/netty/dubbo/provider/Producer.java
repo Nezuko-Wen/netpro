@@ -1,6 +1,7 @@
 package me.exec.netty.dubbo.provider;
 
-import netty.dubbo.netty.DubboServer;
+
+import me.exec.netty.dubbo.netty.DubboServer;
 
 public class Producer {
     public static void main(String[] args) {
