@@ -17,11 +17,7 @@ public class BIOServer {
         while (true)
         {
             final Socket accept = serverSocket.accept();
-            executorService.execute(new Runnable() {
-                public void run() {
-                    handle(accept);
-                }
-            });
+            executorService.execute(() -> handle(accept));
         }
     }
 
